@@ -1,0 +1,18 @@
+.swiper-card {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.post-slider .swiper-pagination {
+  margin-top: 40px;
+  position: static;
+}
+@media screen and (max-width: 768px) {
+  .post-slider .swiper-pagination {
+    margin-top: 20px;
+  }
+  .swiper-card {
+    padding: 10px;
+  }
+}
