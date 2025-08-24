@@ -21,7 +21,7 @@ export const Form = ({ className, onAddSlide }) => {
   };
   return (
     <form onSubmit={handleSubmit} className={`slide-form ${className}`}>
-      <h2 className="slide-form__title">Новый слайд</h2>
+      <h2 className="title title_size_h2 slide-form__title">Новый слайд</h2>
 
       <input
         className="input form-group__input"
@@ -45,7 +45,10 @@ export const Form = ({ className, onAddSlide }) => {
         required
       ></textarea>
 
-      <button className="button form-group__button" type="submit">
+      <button
+        className="button form-group__button button_color_blue"
+        type="submit"
+      >
         Добавить
       </button>
     </form>

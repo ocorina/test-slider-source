@@ -1,0 +1,34 @@
+.title {
+  font-weight: 700;
+  color: #101828;
+}
+
+.title_size_h2 {
+  font-size: 36px;
+  line-height: 40px;
+}
+.title_size_h4 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text_muted {
+  color: #98a2b3;
+}
+
+@media screen and (max-width: 768px) {
+  .title_size_h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .title_size_h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

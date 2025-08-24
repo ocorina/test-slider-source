@@ -1,4 +1,3 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,7 +7,8 @@ import "./Slider.css";
 const PostItem = ({ title, body }) => {
   return (
     <div className="swiper-card">
-      <p>{title}</p> <p>{body}</p>
+      <h4 className="title swiper-card__title title_size_h4">{title}</h4>{" "}
+      <p className="text swiper-card__text text_muted">{body}</p>
     </div>
   );
 };
@@ -16,7 +16,6 @@ const PostItem = ({ title, body }) => {
 export const Slider = ({ slides }) => {
   return (
     <Swiper
-      className="post-slider"
       spaceBetween={50}
       slidesPerView={3}
       pagination={true}
